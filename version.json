@@ -1,11 +1,23 @@
 {
-  "version": "2.0.2",
-  "releaseDate": "2026-09-09",
+  "version": "2.0.4",
+  "releaseDate": "2026-09-10",
   "changelog": [
-    "彻底修复外部机器图片转换、压缩、调整大小 500 报错（全量固化内置原生 Sharp 引擎）",
-    "修复 PDF 转 Word、AI 抠图等重型离线 Worker 任务调度与通信环境变量",
-    "修复 B 站与全网视频解析后下载任务异常，完善内置 ffmpeg 路径解析与跨进程链路",
-    "优化本地存储自检预创建机制，新增一键全自动在线升级"
+    "全新上线「磁力与BT种子下载」工具：大文件、大视频直接下，无需安装第三方软件",
+    "超贴心「先预览后下载」：粘贴链接秒出视频名字、准确大小与文件清单，绝不下错资源",
+    "内置 40+ 全球高速加速节点与协议伪装，冷门资源也能轻松连接、跑满网速",
+    "下载视频的同时自动留存 .torrent 种子备份，方便转存网盘或分享给好友",
+    "已下载资源智能识别：已下好的视频直接秒开，绝不误删、不重复下载",
+    "软件更新通道与后台服务全面优化，后续升级一键全自动检测与安装"
   ],
-  "downloadUrl": "https://github.com/FUFU-eng/FurinaKit/releases/download/v2.0.2/FurinaKit.Setup.2.0.2.exe"
+  "downloadUrl": "https://github.com/FUFU-eng/FurinaKit/releases/download/v2.0.4/FurinaKit.Setup.2.0.4.exe",
+  "mirrors": [
+    {
+      "name": "GitHub 官方直链",
+      "url": "https://github.com/FUFU-eng/FurinaKit/releases/download/v2.0.4/FurinaKit.Setup.2.0.4.exe"
+    },
+    {
+      "name": "国内高速镜像线路",
+      "url": "https://ghproxy.net/https://github.com/FUFU-eng/FurinaKit/releases/download/v2.0.4/FurinaKit.Setup.2.0.4.exe"
+    }
+  ]
 }

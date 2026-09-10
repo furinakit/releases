@@ -1,0 +1,11 @@
+﻿{
+  "version": "2.0.2",
+  "releaseDate": "2026-09-09",
+  "changelog": [
+    "彻底修复外部机器图片转换、压缩、调整大小 500 报错（全量固化内置原生 Sharp 引擎）",
+    "修复 PDF 转 Word、AI 抠图等重型离线 Worker 任务调度与通信环境变量",
+    "修复 B 站与全网视频解析后下载任务异常，完善内置 ffmpeg 路径解析与跨进程链路",
+    "优化本地存储自检预创建机制，新增一键全自动在线升级"
+  ],
+  "downloadUrl": "https://github.com/FUFU-eng/FurinaKit/releases/download/v2.0.2/FurinaKit.Setup.2.0.2.exe"
+}
